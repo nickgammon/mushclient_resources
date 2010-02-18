@@ -1,0 +1,310 @@
+MUSHclient
+----------
+
+MUSHclient was designed and written by Nick Gammon of Gammon Software Solutions.
+
+MUSHclient is Copyright (C) 2007 by Gammon Software Solutions.
+
+All rights are reserved worldwide.
+
+Web pages: http://www.gammon.com.au/
+           http://www.mushclient.com/
+           http://www.gammon.com.au/forum/
+
+Support:   http://www.gammon.com.au/forum/
+
+
+Beta testers
+------------
+
+Many thanks to the following people who assisted in beta-testing MUSHclient Version 3.
+
+Argon, Linda Antonsson, Alan Bick, Simen Brekken, Stephen Cakebread, B. Coluccio, Corinthian, Kevin Eav, Kate Finneran (aka Terra), Andrew Gray, Adam Greatrix (Zeta Aquilae), D. Scott Jackson, Krenath, J. Larson, Matthew Lewis (Acid Rainbow), Lockheed, Kathy Perry, T. Alexander Popiel, Amy 'Amara' Pronovost, Rakkar, Rashan, May Sawan, Matt Totney-Roberts, Rob "Leeuw" Tripp, Mark Vanderkley, Washu (WNOHGB), Crystal Wolf and Zalgorr.
+
+
+Forum contributors
+------------------
+
+Thanks also to the following people who have made many useful contributions to the MUSHclient section of our forum:
+
+Boborak, Creeper386, Dave, Demonsurfer, Flannel, Greven, Kalahn, Kris, David Haley (Ksilyan), Linda, Magnum, Meerclar, Microp, Neva, Polarus, Poromenos, Shadowfyr, Straud, Vaejor, Whiteknight and Zeno.
+
+
+Installer
+---------
+
+The installer for MUSHclient was created using the NSIS installer from NullSoft.
+
+You can read about it at:
+
+  http://www.nullsoft.com/
+
+
+UPX
+---
+
+MUSHclient is compressed with UPX, so that the executable file is compact, and thus will fit onto a single floppy disk.
+
+UPX is a free, portable, extendable, high-performance executable packer for several different executable formats. It achieves an excellent compression ratio and offers very fast decompression. Your executables suffer no memory overhead or other drawbacks.
+
+UPX was written by Markus F.X.J. Oberhumer and Laszlo Molnar. You can read about it at:
+
+  http://upx.sourceforge.net/
+
+
+Scripting Engines
+-----------------
+
+VBScript and JScript technologies supplied by Microsoft Corporation.
+
+PerlScript and Python are available from ActiveState - see their web site at:
+
+  http://www.ActiveState.com/
+
+For information about Lua, see below ...
+
+
+Lua
+---
+
+The Lua language is designed and implemented at Tecgraf, PUC-Rio in Brazil by the team below: 
+
+  Roberto Ierusalimschy 
+  Ph.D. in Computer Science, PUC-Rio, 1990. 
+  Associate Professor at Computer Science Department, PUC-Rio. 
+
+  Waldemar Celes 
+  Ph.D. in Computer Science, PUC-Rio, 1995. 
+  Associate Professor at Computer Science Department, PUC-Rio. Area coordinator at Tecgraf. 
+
+  Luiz Henrique de Figueiredo 
+  D.Sc. in Mathematics, IMPA, 1992. 
+  Associate Researcher at IMPA. Consultant at Tecgraf. 
+
+Information about Lua can be found at: http://www.lua.org/
+
+For documenation about Lua, see: http://www.lua.org/docs.html
+
+
+FIGlet
+------
+
+Frank, Ian and Glenn's LETters - this is the source of the "ASCII Art" function in the inbuilt Notepad. 
+
+FIGlet was written by Ian Chai, Glenn Gilford Chappell, John Cowan and Paul Burton, and is used with permission.
+
+You can get many fonts which are not in the basic FIGlet package from the Web site:
+
+  http://www.figlet.org/ 
+
+It should also contain the latest version of FIGlet and other utilities related to FIGlet.
+
+
+MUD Client Compression Protocol (MCCP)
+--------------------------------------
+
+MUSHclient detects servers which use the MUD Client Compression Protocol (MCCP) and automatically switches to compressed mode. Read more about MCCP at:
+
+  http://www.randomly.org/projects/MCCP/
+
+  (note - this page seems to be down currently)
+
+
+MUD Extension Protocol (MXP)
+----------------------------
+
+MUSHclient processes the Mud eXtension Protocol (MXP) which is an HTML-like markup language for MUD output.
+
+MXP was initially designed by Michael Potter (Zugg) who has been very helpful in clarifying and amplifying upon the original spec.
+
+MXP is described at:
+
+  http://www.gammon.com.au/mushclient/mxp.htm
+
+There a considerable amount of detail about MUSHclient's MXP implementation at:
+
+  http://www.gammon.com.au/forum/bbshowpost.php?bbtopic_id=33
+
+Development of MXP has been greatly assisted by the support of Michael Garratt (Kalahn), developer of the Dawn Of Time codebase (DOT), which is available from:
+
+  http://www.dawnoftime.org/
+
+
+Pueblo
+------
+
+MUSHclient will recognise the tags sent by a Pueblo-enabled world (which are very similar to MXP).
+
+Pueblo is the trademark of Chaco Communications, Inc.
+
+You can read more about Pueblo at:
+
+  http://pueblo.sourceforge.net/worldlist.php
+
+
+ZLIB compression algorithm
+--------------------------
+
+MUD Client Compression Protocol uses the 'zlib' general purpose compression library, version 1.1.3, July 9th, 1998.
+
+ZLIB was written by Jean-loup Gailly and Mark Adler.
+
+  Jean-loup Gailly <jloup@gzip.org>
+  Mark Adler <madler@alumni.caltech.edu>
+
+The data format used by the zlib library is described by RFCs (Request for Comments) 1950 to 1952 in the URLS:
+
+http://www.faqs.org/rfcs/rfc1950.html  (zlib format)
+http://www.faqs.org/rfcs/rfc1951.html  (deflate format)
+http://www.faqs.org/rfcs/rfc1952.html  (gzip format)
+
+
+More information about zlib can be obtained from:
+
+  http://www.gzip.org/zlib/
+
+
+zLib is also used in the compress and decompress utilities which are part of the Lua library.
+
+
+Mersenne Twister random-number generator
+--------------------------------------
+
+A C-program for MT19937, with initialization improved 2002/1/26.  Coded by Takuji Nishimura and Makoto Matsumoto.
+
+Copyright (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura, all rights reserved.                          
+
+
+SHA256 and MD5 algorithms
+------------------------
+
+These hash functions are copyright (C) 2001-2003  Christophe Devine (released under the GNU General Public License).
+
+
+Double Metaphone algorithm
+--------------------------
+
+This algorithm is (c) 1998, 1999 by Lawrence Philips.
+
+
+Levenshtein Distance Algorithm
+------------------------------
+
+C++ Implementation by Anders Sewerin Johansen.
+
+
+Commented softcode
+------------------
+
+The suggested enhancements for sending commented softcode to a MUSH were made by Andrew Gray.
+
+
+Perl-Compatible Regular Expressions
+-----------------------------------
+
+This is a library of functions to support regular expressions whose syntax and semantics are as close as possible to those of the Perl 5 language.
+
+Written by: Philip Hazel
+
+Copyright (c) 1997-2006 University of Cambridge
+
+For more information, see:
+
+  http://www.pcre.org/
+
+The source may be obtained from:
+
+  ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/
+
+Note that Philip Hazel makes the following disclaimer about PCRE:
+
+"This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+
+
+Regular Expression extension for Lua
+------------------------------------
+
+The Lua interface with PCRE was written by Reuben Thomas and Shmuel Zeigerman.
+
+
+Arbitrary precision numbers
+---------------------------
+
+The "big numbers" library was written by Philip A. Nelson of the Computer Science Department, Western Washington University, Bellingham, WA.
+
+The big-number library for Lua 5.0 (based on GNU bc-1.06 core library) was written by Luiz Henrique de Figueiredo.
+
+
+MUSHclient Icon
+---------------
+
+The MUSHclient icon was designed by Brandon Blackmoor. It was improved, and a larger one for Windows XP done, by Neva.
+
+
+Wine
+----
+
+MUSHclient will hopefully run under Wine these days (ie. under Linux with Wine installed). Thanks to Harold Jones for encouraging me to make the necessary changes and helping with setting up Wine under Linux. To work properly under Wine you need to use the "/wine" command-line switch. This disables certain things (like scripting) that don't work properly under Wine at present. However, Lua scripting is available under Wine regardless of the /wine setting. For more details about Wine, see:
+
+  http://www.winehq.org/
+
+
+Alt-key suppression
+-------------------
+
+Code for suppressing Alt-key menu behaviour supplied by Pink Olifaunt.
+
+
+History of MUDs
+---------------
+
+The world of MUDs is a co-operative effort by many people. For a very interesting history of MUDs (and the Internet in general) see the paper "Cultural Formations in Text-Based Virtual Realities" by Elizabeth M. Reid at: 
+
+  http://www.aluluei.com/work.htm
+
+
+Bug reports
+-----------
+
+Please submit bug reports or suggested enhancements to the MUSHclient forum:
+
+  http://www.gammon.com.au/forum/?bbsection_id=1
+
+I am maintaining a "bug list" page on the Web, you may wish to check that page first to see if the bug you are reporting is already known. The bug list page is at:
+
+  http://www.gammon.com.au/mushclient/buglist.htm
+
+
+Forum
+-----
+
+There is a forum for discussing issues about MUSHclient, and MUDs in general, at:
+
+  http://www.gammon.com.au/forum/
+
+You can make posts, receive replies, and browse comments by other people.
+
+
+FAQ
+---
+
+There is a MUSHclient FAQ (Frequently Asked Questions) page. It is at:
+
+  http://www.gammon.com.au/scripts/showfaq.php
+
+
+Release notes
+-------------
+
+You can see the release notes for every version of MUSHclient at:
+
+  http://www.gammon.com.au/scripts/showrelnote.php
+
+
+MUSHclient home page
+--------------------
+
+The MUSHclient home page on the Web is:
+
+  http://www.gammon.com.au/mushclient/
+  http://www.mushclient.com/
