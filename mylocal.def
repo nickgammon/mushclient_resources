@@ -1,0 +1,18 @@
+LIBRARY      MYLOCAL
+
+DESCRIPTION 'Localized resources for MFC application' 
+EXETYPE      WINDOWS
+
+CODE         PRELOAD MOVEABLE DISCARDABLE
+DATA         PRELOAD MOVEABLE SINGLE
+
+
+SEGMENTS 
+   WEP_TEXT FIXED PRELOAD
+
+
+EXPORTS 
+   WEP @1 RESIDENTNAME ; required WEP entry point
+                       ; (uses library WEP routine)
+
+

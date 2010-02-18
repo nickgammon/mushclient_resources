@@ -1,0 +1,31 @@
+.*
+!.gitignore
+
+
+#
+#  These two directories are where the object and .exe files are generated
+#
+Release
+Debug
+
+
+#
+#  Compiler work files, editor backups, DLLs used for testing, etc.
+#
+*.ncb
+*.plg
+*.opt
+*.aps
+*.bak
+*.dll
+*.fon
+*.po
+*.GID
+*.suo
+Thumbs.db
+
+#
+# My old CVS directory
+#
+
+CVS
